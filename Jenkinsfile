@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                sh './your-script.sh'  // Or specify the commands directly
+                python "pythonbascis1.py"
             }
         }
     }
